@@ -1,0 +1,9 @@
+{application,game,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{game_app,[]}},
+              {env,[]},
+              {modules,[battle,db_init,game_app,game_sup,simple_server,
+                        train_soldier]}]}.

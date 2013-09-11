@@ -1,0 +1,229 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CHILD	.eunit/game_sup.erl	/^-define(CHILD(I, Type), {I, {I, start_link, []}, permanent, 5000, Type, [I]}).$/;"	d
+CHILD	src/game_sup.erl	/^-define(CHILD(I, Type), {I, {I, start_link, []}, permanent, 5000, Type, [I]}).$/;"	d
+COLLECT_TAXES_TIME	include/game.hrl	/^-define(COLLECT_TAXES_TIME, 2000).$/;"	d
+CONSUMER_FOOD_TIME	include/game.hrl	/^-define(CONSUMER_FOOD_TIME, 1000).$/;"	d
+DEBUG	include/game.hrl	/^-define(DEBUG(Input, Args), $/;"	d
+ERROR	include/game.hrl	/^-define(ERROR(Input, Args), $/;"	d
+PRODUCT_FOOD_TIME	include/game.hrl	/^-define(PRODUCT_FOOD_TIME, 1000).$/;"	d
+SERVER	.eunit/battle.erl	/^-define(SERVER, ?MODULE).$/;"	d
+SERVER	.eunit/simple_server.erl	/^-define(SERVER, ?MODULE).$/;"	d
+SERVER	.eunit/train_soldier.erl	/^-define(SERVER, ?MODULE).$/;"	d
+SERVER	src/battle.erl	/^-define(SERVER, ?MODULE).$/;"	d
+SERVER	src/simple_server.erl	/^-define(SERVER, ?MODULE).$/;"	d
+SERVER	src/train_soldier.erl	/^-define(SERVER, ?MODULE).$/;"	d
+SPEND_TIME	.eunit/battle.erl	/^-define(SPEND_TIME,1).$/;"	d
+SPEND_TIME	.eunit/train_soldier.erl	/^-define(SPEND_TIME,1).$/;"	d
+SPEND_TIME	src/battle.erl	/^-define(SPEND_TIME,1).$/;"	d
+SPEND_TIME	src/train_soldier.erl	/^-define(SPEND_TIME,1).$/;"	d
+add_golds	.eunit/train_soldier.erl	/^add_golds(CityId, Golds) ->$/;"	f	module:train_soldier
+add_golds	src/train_soldier.erl	/^add_golds(CityId, Golds) ->$/;"	f	module:train_soldier
+add_soldier	.eunit/train_soldier.erl	/^add_soldier({_, AuthorId}=CityId, Numbers, Type, State) ->$/;"	f	module:train_soldier
+add_soldier	src/train_soldier.erl	/^add_soldier({_, AuthorId}=CityId, Numbers, Type, State) ->$/;"	f	module:train_soldier
+add_train	.eunit/train_soldier.erl	/^add_train(Type, CityId, TrainId, Numbers) ->$/;"	f	module:train_soldier
+add_train	src/train_soldier.erl	/^add_train(Type, CityId, TrainId, Numbers) ->$/;"	f	module:train_soldier
+battle	.eunit/battle.erl	/^-module(battle).$/;"	m
+battle	src/battle.erl	/^-module(battle).$/;"	m
+cancel_train	.eunit/train_soldier.erl	/^cancel_train(Type, CityId, TrainId) ->$/;"	f	module:train_soldier
+cancel_train	src/train_soldier.erl	/^cancel_train(Type, CityId, TrainId) ->$/;"	f	module:train_soldier
+change_capital	.eunit/simple_server.erl	/^change_capital({X, Y}, AuthorId) ->$/;"	f	module:simple_server
+change_capital	src/simple_server.erl	/^change_capital({X, Y}, AuthorId) ->$/;"	f	module:simple_server
+change_peoples	.eunit/simple_server.erl	/^change_peoples(#city{id=CityId, peoples=Peoples, foods=Foods, gold_tax=Tax}=City) ->$/;"	f	module:simple_server
+change_peoples	src/simple_server.erl	/^change_peoples(#city{id=CityId, peoples=Peoples, foods=Foods, gold_tax=Tax}=City) ->$/;"	f	module:simple_server
+change_peoples_test	.eunit/simple_server.erl	/^change_peoples_test() ->$/;"	f	module:simple_server
+change_peoples_test	src/simple_server.erl	/^change_peoples_test() ->$/;"	f	module:simple_server
+change_soldier	.eunit/train_soldier.erl	/^change_soldier(CityId, Numbers, Type) ->$/;"	f	module:train_soldier
+change_soldier	src/train_soldier.erl	/^change_soldier(CityId, Numbers, Type) ->$/;"	f	module:train_soldier
+change_tax	.eunit/simple_server.erl	/^change_tax({X, Y}, AuthorId, Tax) ->$/;"	f	module:simple_server
+change_tax	src/simple_server.erl	/^change_tax({X, Y}, AuthorId, Tax) ->$/;"	f	module:simple_server
+city	include/game.hrl	/^-record(city, {id={{0,0}, author_id=""}, $/;"	r
+code_change	.eunit/battle.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:battle
+code_change	.eunit/simple_server.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:simple_server
+code_change	.eunit/train_soldier.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:train_soldier
+code_change	src/battle.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:battle
+code_change	src/simple_server.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:simple_server
+code_change	src/train_soldier.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:train_soldier
+collect_taxes	.eunit/simple_server.erl	/^collect_taxes() ->$/;"	f	module:simple_server
+collect_taxes	.eunit/simple_server.erl	/^collect_taxes(Time) ->$/;"	f	module:simple_server
+collect_taxes	src/simple_server.erl	/^collect_taxes() ->$/;"	f	module:simple_server
+collect_taxes	src/simple_server.erl	/^collect_taxes(Time) ->$/;"	f	module:simple_server
+collect_taxes_test	.eunit/simple_server.erl	/^collect_taxes_test() ->$/;"	f	module:simple_server
+collect_taxes_test	src/simple_server.erl	/^collect_taxes_test() ->$/;"	f	module:simple_server
+complete	.eunit/train_soldier.erl	/^complete(Pid, Type, CityId) ->$/;"	f	module:train_soldier
+complete	src/train_soldier.erl	/^complete(Pid, Type, CityId) ->$/;"	f	module:train_soldier
+consumer_food	.eunit/train_soldier.erl	/^consumer_food() ->$/;"	f	module:train_soldier
+consumer_food	.eunit/train_soldier.erl	/^consumer_food(Time) ->$/;"	f	module:train_soldier
+consumer_food	.eunit/train_soldier.erl	/^consumer_food(Type, Sum, CityId) ->$/;"	f	module:train_soldier
+consumer_food	src/train_soldier.erl	/^consumer_food() ->$/;"	f	module:train_soldier
+consumer_food	src/train_soldier.erl	/^consumer_food(Time) ->$/;"	f	module:train_soldier
+consumer_food	src/train_soldier.erl	/^consumer_food(Type, Sum, CityId) ->$/;"	f	module:train_soldier
+consumer_food1	.eunit/train_soldier.erl	/^consumer_food1('$end_of_table') ->$/;"	f	module:train_soldier
+consumer_food1	.eunit/train_soldier.erl	/^consumer_food1(Id) ->$/;"	f	module:train_soldier
+consumer_food1	src/train_soldier.erl	/^consumer_food1('$end_of_table') ->$/;"	f	module:train_soldier
+consumer_food1	src/train_soldier.erl	/^consumer_food1(Id) ->$/;"	f	module:train_soldier
+create_city	.eunit/simple_server.erl	/^create_city({X, Y}, AuthorId) ->$/;"	f	module:simple_server
+create_city	src/simple_server.erl	/^create_city({X, Y}, AuthorId) ->$/;"	f	module:simple_server
+create_city_test	.eunit/simple_server.erl	/^create_city_test() ->$/;"	f	module:simple_server
+create_city_test	src/simple_server.erl	/^create_city_test() ->$/;"	f	module:simple_server
+db_init	.eunit/db_init.erl	/^-module(db_init).$/;"	m
+db_init	src/db_init.erl	/^-module(db_init).$/;"	m
+food_crisis	.eunit/simple_server.erl	/^food_crisis(Foods, _CityId) when Foods >0 ->$/;"	f	module:simple_server
+food_crisis	.eunit/simple_server.erl	/^food_crisis(_Foods, CityId) ->$/;"	f	module:simple_server
+food_crisis	src/simple_server.erl	/^food_crisis(Foods, _CityId) when Foods >0 ->$/;"	f	module:simple_server
+food_crisis	src/simple_server.erl	/^food_crisis(_Foods, CityId) ->$/;"	f	module:simple_server
+game_app	.eunit/game_app.erl	/^-module(game_app).$/;"	m
+game_app	src/game_app.erl	/^-module(game_app).$/;"	m
+game_sup	.eunit/game_sup.erl	/^-module(game_sup).$/;"	m
+game_sup	src/game_sup.erl	/^-module(game_sup).$/;"	m
+get_city	.eunit/simple_server.erl	/^get_city({X, Y}, AuthorId) ->$/;"	f	module:simple_server
+get_city	src/simple_server.erl	/^get_city({X, Y}, AuthorId) ->$/;"	f	module:simple_server
+get_consumer_food	.eunit/train_soldier.erl	/^get_consumer_food("1") ->$/;"	f	module:train_soldier
+get_consumer_food	.eunit/train_soldier.erl	/^get_consumer_food("2") ->$/;"	f	module:train_soldier
+get_consumer_food	.eunit/train_soldier.erl	/^get_consumer_food("3") ->$/;"	f	module:train_soldier
+get_consumer_food	src/train_soldier.erl	/^get_consumer_food("1") ->$/;"	f	module:train_soldier
+get_consumer_food	src/train_soldier.erl	/^get_consumer_food("2") ->$/;"	f	module:train_soldier
+get_consumer_food	src/train_soldier.erl	/^get_consumer_food("3") ->$/;"	f	module:train_soldier
+get_golds	.eunit/simple_server.erl	/^get_golds(Golds) ->$/;"	f	module:simple_server
+get_golds	.eunit/simple_server.erl	/^get_golds(Golds) when Golds < 0 ->$/;"	f	module:simple_server
+get_golds	.eunit/simple_server.erl	/^get_golds(Golds, Rate) ->$/;"	f	module:simple_server
+get_golds	src/simple_server.erl	/^get_golds(Golds) ->$/;"	f	module:simple_server
+get_golds	src/simple_server.erl	/^get_golds(Golds) when Golds < 0 ->$/;"	f	module:simple_server
+get_golds	src/simple_server.erl	/^get_golds(Golds, Rate) ->$/;"	f	module:simple_server
+get_max_people	.eunit/simple_server.erl	/^get_max_people(Num) when Num < 1000 ->$/;"	f	module:simple_server
+get_max_people	.eunit/simple_server.erl	/^get_max_people(_Num) ->$/;"	f	module:simple_server
+get_max_people	src/simple_server.erl	/^get_max_people(Num) when Num < 1000 ->$/;"	f	module:simple_server
+get_max_people	src/simple_server.erl	/^get_max_people(_Num) ->$/;"	f	module:simple_server
+get_soldier	src/battle.erl	/^get_soldier(CityId, {Type, Num}) ->$/;"	f	module:battle
+get_soldier_for_city	.eunit/train_soldier.erl	/^get_soldier_for_city(CityId) ->$/;"	f	module:train_soldier
+get_soldier_for_city	src/train_soldier.erl	/^get_soldier_for_city(CityId) ->$/;"	f	module:train_soldier
+get_spend_golds	.eunit/train_soldier.erl	/^get_spend_golds("1") ->$/;"	f	module:train_soldier
+get_spend_golds	.eunit/train_soldier.erl	/^get_spend_golds("2") ->$/;"	f	module:train_soldier
+get_spend_golds	.eunit/train_soldier.erl	/^get_spend_golds("3") ->$/;"	f	module:train_soldier
+get_spend_golds	src/train_soldier.erl	/^get_spend_golds("1") ->$/;"	f	module:train_soldier
+get_spend_golds	src/train_soldier.erl	/^get_spend_golds("2") ->$/;"	f	module:train_soldier
+get_spend_golds	src/train_soldier.erl	/^get_spend_golds("3") ->$/;"	f	module:train_soldier
+get_spend_time	.eunit/train_soldier.erl	/^get_spend_time("1") ->$/;"	f	module:train_soldier
+get_spend_time	.eunit/train_soldier.erl	/^get_spend_time("2") ->$/;"	f	module:train_soldier
+get_spend_time	.eunit/train_soldier.erl	/^get_spend_time("3") ->$/;"	f	module:train_soldier
+get_spend_time	src/train_soldier.erl	/^get_spend_time("1") ->$/;"	f	module:train_soldier
+get_spend_time	src/train_soldier.erl	/^get_spend_time("2") ->$/;"	f	module:train_soldier
+get_spend_time	src/train_soldier.erl	/^get_spend_time("3") ->$/;"	f	module:train_soldier
+handle_call	.eunit/battle.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:battle
+handle_call	.eunit/simple_server.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:simple_server
+handle_call	.eunit/train_soldier.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:train_soldier
+handle_call	.eunit/train_soldier.erl	/^handle_call({add_train, Type, CityId, TrainId, Numbers}, _From, $/;"	f	module:train_soldier
+handle_call	.eunit/train_soldier.erl	/^handle_call({cancel_train, Type, CityId, TrainId}, _From, $/;"	f	module:train_soldier
+handle_call	src/battle.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:battle
+handle_call	src/battle.erl	/^handle_call({send_soldier, FromCity, ToCity, PikeSoldier, $/;"	f	module:battle
+handle_call	src/simple_server.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:simple_server
+handle_call	src/train_soldier.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:train_soldier
+handle_call	src/train_soldier.erl	/^handle_call({add_train, Type, CityId, TrainId, Numbers}, _From, $/;"	f	module:train_soldier
+handle_call	src/train_soldier.erl	/^handle_call({cancel_train, Type, CityId, TrainId}, _From, $/;"	f	module:train_soldier
+handle_cast	.eunit/battle.erl	/^handle_cast(_Request, State) ->$/;"	f	module:battle
+handle_cast	.eunit/simple_server.erl	/^handle_cast({collect_taxes}, State) ->$/;"	f	module:simple_server
+handle_cast	.eunit/simple_server.erl	/^handle_cast({consumer_food}, State) ->$/;"	f	module:simple_server
+handle_cast	.eunit/simple_server.erl	/^handle_cast({product_food}, State) ->$/;"	f	module:simple_server
+handle_cast	.eunit/train_soldier.erl	/^handle_cast(_Request, State) ->$/;"	f	module:train_soldier
+handle_cast	.eunit/train_soldier.erl	/^handle_cast({complete, Pid, Type, CityId}, $/;"	f	module:train_soldier
+handle_cast	src/battle.erl	/^handle_cast(_Request, State) ->$/;"	f	module:battle
+handle_cast	src/simple_server.erl	/^handle_cast({collect_taxes}, State) ->$/;"	f	module:simple_server
+handle_cast	src/simple_server.erl	/^handle_cast({consumer_food}, State) ->$/;"	f	module:simple_server
+handle_cast	src/simple_server.erl	/^handle_cast({product_food}, State) ->$/;"	f	module:simple_server
+handle_cast	src/train_soldier.erl	/^handle_cast(_Request, State) ->$/;"	f	module:train_soldier
+handle_cast	src/train_soldier.erl	/^handle_cast({complete, Pid, Type, CityId}, $/;"	f	module:train_soldier
+handle_info	.eunit/battle.erl	/^handle_info(_Info, State) ->$/;"	f	module:battle
+handle_info	.eunit/battle.erl	/^handle_info({'EXIT', From, Reason}, $/;"	f	module:battle
+handle_info	.eunit/battle.erl	/^handle_info({'EXIT', _From, normal}, State) ->$/;"	f	module:battle
+handle_info	.eunit/simple_server.erl	/^handle_info(_Info, State) ->$/;"	f	module:simple_server
+handle_info	.eunit/simple_server.erl	/^handle_info({'EXIT', From, Reason}, State) ->$/;"	f	module:simple_server
+handle_info	.eunit/train_soldier.erl	/^handle_info(_Info, State) ->$/;"	f	module:train_soldier
+handle_info	.eunit/train_soldier.erl	/^handle_info({'EXIT', From, Reason}, $/;"	f	module:train_soldier
+handle_info	.eunit/train_soldier.erl	/^handle_info({'EXIT', _From, normal}, State) ->$/;"	f	module:train_soldier
+handle_info	src/battle.erl	/^handle_info(_Info, State) ->$/;"	f	module:battle
+handle_info	src/battle.erl	/^handle_info({'EXIT', From, Reason}, $/;"	f	module:battle
+handle_info	src/battle.erl	/^handle_info({'EXIT', _From, normal}, State) ->$/;"	f	module:battle
+handle_info	src/simple_server.erl	/^handle_info(_Info, State) ->$/;"	f	module:simple_server
+handle_info	src/simple_server.erl	/^handle_info({'EXIT', From, Reason}, State) ->$/;"	f	module:simple_server
+handle_info	src/train_soldier.erl	/^handle_info(_Info, State) ->$/;"	f	module:train_soldier
+handle_info	src/train_soldier.erl	/^handle_info({'EXIT', From, Reason}, $/;"	f	module:train_soldier
+handle_info	src/train_soldier.erl	/^handle_info({'EXIT', _From, normal}, State) ->$/;"	f	module:train_soldier
+init	.eunit/battle.erl	/^init(_Args) ->$/;"	f	module:battle
+init	.eunit/game_sup.erl	/^init([]) ->$/;"	f	module:game_sup
+init	.eunit/simple_server.erl	/^init(_Args) ->$/;"	f	module:simple_server
+init	.eunit/train_soldier.erl	/^init(_Args) ->$/;"	f	module:train_soldier
+init	src/battle.erl	/^init(_Args) ->$/;"	f	module:battle
+init	src/game_sup.erl	/^init([]) ->$/;"	f	module:game_sup
+init	src/simple_server.erl	/^init(_Args) ->$/;"	f	module:simple_server
+init	src/train_soldier.erl	/^init(_Args) ->$/;"	f	module:train_soldier
+init_test	.eunit/simple_server.erl	/^init_test() ->$/;"	f	module:simple_server
+init_test	src/simple_server.erl	/^init_test() ->$/;"	f	module:simple_server
+is_empty	.eunit/simple_server.erl	/^is_empty({X, Y}, AuthorId) ->$/;"	f	module:simple_server
+is_empty	.eunit/train_soldier.erl	/^is_empty(CityId, Cities, Max) ->$/;"	f	module:train_soldier
+is_empty	src/simple_server.erl	/^is_empty({X, Y}, AuthorId) ->$/;"	f	module:simple_server
+is_empty	src/train_soldier.erl	/^is_empty(CityId, Cities, Max) ->$/;"	f	module:train_soldier
+is_enough_people_to_train	.eunit/train_soldier.erl	/^is_enough_people_to_train(CityId, Numbers) ->$/;"	f	module:train_soldier
+is_enough_people_to_train	src/train_soldier.erl	/^is_enough_people_to_train(CityId, Numbers) ->$/;"	f	module:train_soldier
+is_enough_soldier_to_battle	src/battle.erl	/^is_enough_soldier_to_battle(CityId, PikeSoldier, ArcherSoldier, Cavalry) ->$/;"	f	module:battle
+is_may_battle	src/battle.erl	/^is_may_battle(CityId, PikeSoldier, ArcherSoldier, Cavalry, CitiesId, Max) ->$/;"	f	module:battle
+is_may_train	.eunit/train_soldier.erl	/^is_may_train(CityId, Cities, Max, Numbers) ->$/;"	f	module:train_soldier
+is_may_train	src/train_soldier.erl	/^is_may_train(CityId, Cities, Max, Numbers) ->$/;"	f	module:train_soldier
+kill_soldier	.eunit/battle.erl	/^kill_soldier(From) ->$/;"	f	module:battle
+kill_soldier	.eunit/battle.erl	/^kill_soldier(To, From) ->$/;"	f	module:battle
+kill_soldier	.eunit/battle.erl	/^kill_soldier(To, _From, 1) ->$/;"	f	module:battle
+kill_soldier	.eunit/battle.erl	/^kill_soldier(_To, From, 2) ->$/;"	f	module:battle
+kill_soldier	src/battle.erl	/^kill_soldier(From) ->$/;"	f	module:battle
+kill_soldier	src/battle.erl	/^kill_soldier(To, From) ->$/;"	f	module:battle
+kill_soldier	src/battle.erl	/^kill_soldier(To, _From, 1) ->$/;"	f	module:battle
+kill_soldier	src/battle.erl	/^kill_soldier(_To, From, 2) ->$/;"	f	module:battle
+map	include/game.hrl	/^-record(map, {id={{0,0}, author_id=""}, is_empty="1"}).$/;"	r
+product_food	.eunit/simple_server.erl	/^product_food() ->$/;"	f	module:simple_server
+product_food	.eunit/simple_server.erl	/^product_food(Time) ->$/;"	f	module:simple_server
+product_food	src/simple_server.erl	/^product_food() ->$/;"	f	module:simple_server
+product_food	src/simple_server.erl	/^product_food(Time) ->$/;"	f	module:simple_server
+respawn_test	.eunit/battle.erl	/^respawn_test() -> $/;"	f	module:battle
+respawn_test	.eunit/simple_server.erl	/^respawn_test() ->$/;"	f	module:simple_server
+respawn_test	.eunit/train_soldier.erl	/^respawn_test() -> application:start(game),$/;"	f	module:train_soldier
+respawn_test	src/battle.erl	/^respawn_test() -> $/;"	f	module:battle
+respawn_test	src/simple_server.erl	/^respawn_test() ->$/;"	f	module:simple_server
+respawn_test	src/train_soldier.erl	/^respawn_test() -> application:start(game),$/;"	f	module:train_soldier
+send_soldier	src/battle.erl	/^send_soldier(From, To, PikeSoldier, ArcherSoldier, Cavalry) ->$/;"	f	module:battle
+simple_server	.eunit/simple_server.erl	/^-module(simple_server).$/;"	m
+simple_server	src/simple_server.erl	/^-module(simple_server).$/;"	m
+soldier	include/game.hrl	/^-record(soldier, {id={"","", ""}::{CityId::city_id(), $/;"	r
+spend_golds	.eunit/train_soldier.erl	/^spend_golds(Type, CityId) ->$/;"	f	module:train_soldier
+spend_golds	src/train_soldier.erl	/^spend_golds(Type, CityId) ->$/;"	f	module:train_soldier
+start	.eunit/db_init.erl	/^start() ->$/;"	f	module:db_init
+start	.eunit/game_app.erl	/^start(_StartType, _StartArgs) ->$/;"	f	module:game_app
+start	src/db_init.erl	/^start() ->$/;"	f	module:db_init
+start	src/game_app.erl	/^start(_StartType, _StartArgs) ->$/;"	f	module:game_app
+start_link	.eunit/battle.erl	/^start_link() ->$/;"	f	module:battle
+start_link	.eunit/game_sup.erl	/^start_link() ->$/;"	f	module:game_sup
+start_link	.eunit/simple_server.erl	/^start_link() ->$/;"	f	module:simple_server
+start_link	.eunit/train_soldier.erl	/^start_link() ->$/;"	f	module:train_soldier
+start_link	src/battle.erl	/^start_link() ->$/;"	f	module:battle
+start_link	src/game_sup.erl	/^start_link() ->$/;"	f	module:game_sup
+start_link	src/simple_server.erl	/^start_link() ->$/;"	f	module:simple_server
+start_link	src/train_soldier.erl	/^start_link() ->$/;"	f	module:train_soldier
+state	.eunit/battle.erl	/^-record(state, {pids = dict:new(), $/;"	r
+state	.eunit/train_soldier.erl	/^-record(state, {pids = dict:new(), $/;"	r
+state	src/battle.erl	/^-record(state, {pids = dict:new(), $/;"	r
+state	src/train_soldier.erl	/^-record(state, {pids = dict:new(), $/;"	r
+stop	.eunit/game_app.erl	/^stop(_State) ->$/;"	f	module:game_app
+stop	src/game_app.erl	/^stop(_State) ->$/;"	f	module:game_app
+terminate	.eunit/battle.erl	/^terminate(_Reason, _State) ->$/;"	f	module:battle
+terminate	.eunit/simple_server.erl	/^terminate(_Reason, _State) ->$/;"	f	module:simple_server
+terminate	.eunit/train_soldier.erl	/^terminate(_Reason, _State) ->$/;"	f	module:train_soldier
+terminate	src/battle.erl	/^terminate(_Reason, _State) ->$/;"	f	module:battle
+terminate	src/simple_server.erl	/^terminate(_Reason, _State) ->$/;"	f	module:simple_server
+terminate	src/train_soldier.erl	/^terminate(_Reason, _State) ->$/;"	f	module:train_soldier
+to_battle	.eunit/battle.erl	/^to_battle(FromCityId, ToCityId) ->$/;"	f	module:battle
+to_battle	src/battle.erl	/^to_battle(FromCityId, ToCityId) ->$/;"	f	module:battle
+train	.eunit/train_soldier.erl	/^train(Type, CityId, Time) ->$/;"	f	module:train_soldier
+train	src/train_soldier.erl	/^train(Type, CityId, Time) ->$/;"	f	module:train_soldier
+train_soldier	.eunit/train_soldier.erl	/^-module(train_soldier).$/;"	m
+train_soldier	src/train_soldier.erl	/^-module(train_soldier).$/;"	m
